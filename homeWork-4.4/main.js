@@ -1,8 +1,6 @@
 'use strict'
 
 let numOrStr = prompt('input number or string');
-console.log(numOrStr)
-
 
 if (numOrStr === null) {
     console.log('ви скасували')
