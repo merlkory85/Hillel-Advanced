@@ -1,0 +1,25 @@
+ .title {
+     text-align: center;
+ }
+
+ .grid {
+     display: grid;
+     grid-template-columns: repeat(10, 1fr);
+     width: 450px;
+     margin: 20px auto;
+     border: 3px solid rgb(245, 14, 14);
+     border-radius: 15px;
+     background-color: #2bac1a;
+ }
+
+ .cell {
+     border: 1px solid #2bac1a;
+     border-radius: 9px;
+     padding: 10px;
+     text-align: center;
+     font-family: sans-serif;
+     font-weight: 700;
+     color: rgb(132, 27, 230);
+     font-size: 16px;
+     background-color: #bce2e7;
+ }
