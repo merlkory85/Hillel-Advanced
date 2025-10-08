@@ -1,0 +1,15 @@
+.wrapper {
+    height: 98vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 15px;
+}
+
+.btn1 {
+    cursor: pointer;
+}
+
+.btn2 {
+    cursor: pointer;
+}
