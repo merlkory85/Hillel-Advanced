@@ -1,0 +1,23 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 60px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+.timer{
+    font-weight: 800;
+    font-size: 40px;
+}
