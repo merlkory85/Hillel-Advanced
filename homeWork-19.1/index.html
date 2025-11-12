@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HomeWork 19.1</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="weather-widget">
+            <h2>Віджет погоди</h2>
+            <input type="text" id="cityInput" placeholder="Введіть місто..." />
+            <button onclick="getWeather()">Показати погоду</button>
+
+            <div id="weatherData" style="display:none;">
+                <h3 id="cityName"></h3>
+                <img id="icon" class="weather-icon" src="" alt="Погода">
+                <p id="description"></p>
+                <p><b>Температура:</b> <span id="temp"></span>°C</p>
+                <p><b>Вологість:</b> <span id="humidity"></span>%</p>
+                <p><b>Вітер:</b> <span id="wind"></span> м/с</p>
+                <button onclick="refreshWeather()">Оновити</button>
+            </div>
+
+            <p class="error" id="error"></p>
+        </div>
+        <script src="./main.js"></script>
+    </body>
+
+</html>
